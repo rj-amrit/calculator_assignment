@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.21.4
-// source: Assignment_gRPC/calculator.proto
+// source: calculator.proto
 
 package calculator
 
@@ -311,5 +311,5 @@ var Calculator_ServiceDesc = grpc.ServiceDesc{
 			ClientStreams: true,
 		},
 	},
-	Metadata: "Assignment_gRPC/calculator.proto",
+	Metadata: "calculator.proto",
 }

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package calculator;
 
-option go_package = "./;calculator";
+option go_package = "calculator/calculator";
 
 message TwoNumRequest {
     int64 num1 = 1;
@@ -22,7 +22,7 @@ message AllPrimesResponse {
 }
 
 message AverageResponse {
-    int64 num = 1;
+    float num = 1;
 }
 
 message MaxNumResponse {
